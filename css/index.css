@@ -1,0 +1,35 @@
+.content{
+	width:100%;
+	overflow: hidden;
+}
+.content img{
+	display: block;
+}
+.content img:first-of-type,.content img:nth-of-type(2),.content img:nth-of-type(4),.content img:nth-of-type(6){
+	width:1000px;
+	margin:0 auto;
+}
+.content img:nth-of-type(3){
+	width:1440px;
+	margin:0 auto;
+}
+.content img:nth-of-type(5){
+	width:331px;
+	margin:0 auto;
+}
+.content img:first-of-type,.content img:nth-of-type(3),.content img:nth-of-type(4),.content img:nth-of-type(5),.content img:last-of-type{
+	margin-top: 66px;
+}
+.content img:nth-of-type(2){
+	margin-top: 89px;
+}
+footer{
+	width:100%;
+	overflow: hidden;
+}
+footer img{
+	display: block;
+	width:1440px;
+	height: 276px;
+	margin: 66px auto 0;
+}
